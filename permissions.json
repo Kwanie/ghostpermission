@@ -1,0 +1,50 @@
+{
+  "android.permission.CAMERA": {
+    "name": "Camera", "level": "dangerous", "weight": 3,
+    "what_it_allows": "Take photos and record video."
+  },
+  "android.permission.READ_CONTACTS": {
+    "name": "Contacts", "level": "dangerous", "weight": 3,
+    "what_it_allows": "Read the names, numbers and emails in your contact list."
+  },
+  "android.permission.ACCESS_FINE_LOCATION": {
+    "name": "Precise location", "level": "dangerous", "weight": 3,
+    "what_it_allows": "Find your exact position, for example which street you are on."
+  },
+  "android.permission.ACCESS_COARSE_LOCATION": {
+    "name": "Approximate location", "level": "dangerous", "weight": 2,
+    "what_it_allows": "Find roughly where you are, for example your area of town."
+  },
+  "android.permission.ACCESS_BACKGROUND_LOCATION": {
+    "name": "Location in the background", "level": "dangerous", "weight": 4,
+    "what_it_allows": "Keep reading your location even when the app is closed or not on screen."
+  },
+  "android.permission.RECORD_AUDIO": {
+    "name": "Microphone", "level": "dangerous", "weight": 4,
+    "what_it_allows": "Record sound through the microphone."
+  },
+  "android.permission.READ_SMS": {
+    "name": "Read text messages", "level": "dangerous", "weight": 5,
+    "what_it_allows": "Read the text messages stored on your phone."
+  },
+  "android.permission.INTERNET": {
+    "name": "Internet access", "level": "normal", "weight": 1,
+    "what_it_allows": "Send and receive data over the internet."
+  },
+  "android.permission.ACCESS_NETWORK_STATE": {
+    "name": "Network status", "level": "normal", "weight": 1,
+    "what_it_allows": "See whether the phone is connected to a network."
+  },
+  "android.permission.RECEIVE_BOOT_COMPLETED": {
+    "name": "Start when the phone starts", "level": "normal", "weight": 1,
+    "what_it_allows": "Run automatically every time the phone is switched on."
+  },
+  "android.permission.WAKE_LOCK": {
+    "name": "Keep phone awake", "level": "normal", "weight": 1,
+    "what_it_allows": "Stop the screen or processor from going to sleep."
+  },
+  "android.permission.VIBRATE": {
+    "name": "Vibration", "level": "normal", "weight": 1,
+    "what_it_allows": "Make the phone vibrate."
+  }
+}
