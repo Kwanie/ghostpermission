@@ -1,0 +1,14 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment Variables & Notebook Checkpoints
+.env
+.ipynb_checkpoints/
+*.log
