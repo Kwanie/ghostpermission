@@ -1,9 +1,0 @@
-.env
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.streamlit/secrets.toml
-ghostpermission-report.json
-*.log
