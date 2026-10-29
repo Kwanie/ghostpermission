@@ -6,7 +6,7 @@ It evaluates potential privacy exposures, identifies dangerous permission combin
 
 ---
 
-## Key Features & Ingestion Pathways
+## Key Features & Pathways
 
 GhostPermission supports 5 input methods to audit any Android app:
 
