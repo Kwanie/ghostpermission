@@ -1,0 +1,44 @@
+{
+  "android.permission.ACCESS_FINE_LOCATION": {
+    "why_apps_ask": "Provides exact GPS coordinates for live navigation, location tagging, or nearby service lookup.",
+    "if_denied": "Maps still load using approximate city-level estimates, but turn-by-turn guidance will lag.",
+    "risk_if_allowed": "App can build a precise log of your physical movements and routines in the background.",
+    "how_to_limit": "Set location access to 'Only while using the app' in Android settings."
+  },
+  "android.permission.ACCESS_COARSE_LOCATION": {
+    "why_apps_ask": "Determines your general area (city or neighborhood) using cell towers and Wi-Fi.",
+    "if_denied": "You must manually type in your location or zip code for local weather or search results.",
+    "risk_if_allowed": "Reveals your general neighborhood and city to ad networks without high battery drain.",
+    "how_to_limit": "Allow coarse location instead of precise location for non-navigation apps."
+  },
+  "android.permission.CAMERA": {
+    "why_apps_ask": "Captures photos, videos, profile pictures, or scans QR codes directly inside the app.",
+    "if_denied": "In-app photo capture won't work; you will need to upload existing images from your gallery.",
+    "risk_if_allowed": "Invasive apps could take background photos or record video while open.",
+    "how_to_limit": "Grant permission on a 'Ask every time' basis."
+  },
+  "android.permission.READ_CONTACTS": {
+    "why_apps_ask": "Finds friends using the service or lets you invite contacts directly.",
+    "if_denied": "You must manually search for users by their username or phone number.",
+    "risk_if_allowed": "App can upload your entire address book (names, numbers, emails) to remote servers.",
+    "how_to_limit": "Deny this permission unless using a primary messaging app."
+  },
+  "android.permission.READ_SMS": {
+    "why_apps_ask": "Auto-reads 2FA verification codes sent via text message.",
+    "if_denied": "You will need to manually copy and paste OTP codes from your SMS inbox.",
+    "risk_if_allowed": "High privacy risk: App can read private text messages, bank alerts, and sensitive codes.",
+    "how_to_limit": "Deny this permission and manually type OTP verification codes."
+  },
+  "android.permission.RECORD_AUDIO": {
+    "why_apps_ask": "Enables voice notes, audio calls, voice search, or video recording.",
+    "if_denied": "Microphone features will be disabled; voice calling or recording will not function.",
+    "risk_if_allowed": "Background audio capture or keyword listening potential.",
+    "how_to_limit": "Set permission scope to 'Only while using the app'."
+  },
+  "android.permission.READ_EXTERNAL_STORAGE": {
+    "why_apps_ask": "Accesses photos, media, or documents saved on your device storage.",
+    "if_denied": "App cannot read or import local files directly from storage.",
+    "risk_if_allowed": "Broad access to photos, downloads, and stored documents.",
+    "how_to_limit": "Use Android's scoped photo picker instead of granting full storage access."
+  }
+}
